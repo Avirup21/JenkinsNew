@@ -1,7 +1,7 @@
 pipeline{
-    tools{
-        maven 'mymaven'
-    }
+    // tools{
+    //     maven 'mymaven'
+    // }
     agent any
     stages{
         stage(Print){
