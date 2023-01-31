@@ -4,12 +4,12 @@ pipeline{
     // }
     agent any
     stages{
-        stage(Print){
+        stage('Print'){
             steps{
                 sh 'echo "Hello Dev World"'
             }
         }
-        stage(Print){
+        stage('Print Qa'){
             steps{
                 sh 'echo "Hello Qa World"'
             }
