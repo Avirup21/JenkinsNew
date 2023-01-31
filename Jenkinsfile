@@ -6,12 +6,12 @@ pipeline{
     stages{
         stage(Print){
             steps{
-                echo 'Hello Dev World'
+                sh 'echo "Hello Dev World"'
             }
         }
         stage(Print){
             steps{
-                echo 'Hello Qa World'
+                sh 'echo "Hello Qa World"'
             }
         }
     }
